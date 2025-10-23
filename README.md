@@ -1,9 +1,9 @@
 Code likhbi "sequence.md" ata pore ,sequence. dewa ache prottek ta folder wise konta ki likhbi 'utils' diye suru dekhbi 1,2 kore sob por por sequnce ta follow koris ...ar comment kore dewa ache comment ar niche code koris comment remove na kore....like
 // 1️⃣ Import mongoose for MongoDB object modeling and bcrypt for password hashing
-      "ekhane code likhli"
+      "ar tolai ekhane code likhli"====================
 // 2️⃣ Define userSchema with fields:
 //     - name: String (required) - User's full name
-        "ekhane code likhli"
+        "ar toali ekhane code likhli"
 
 just arokom kore continue hobbe
 
