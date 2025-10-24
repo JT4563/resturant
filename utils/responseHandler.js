@@ -12,6 +12,14 @@
 //         * message: Success message string
 //         * data: Response data object (optional)
 //     - Returns: JSON response with status, message, and data
+export const success = (res,message,data=NULL)=>{
+
+    return res.status(200).json(
+       { status:"success",
+        message:message,
+        data :data
+       })
+}
 
 // 2️⃣ error(res, message, code)
 //     - Send standardized error response
@@ -20,5 +28,14 @@
 //         * message: Error message string
 //         * code: HTTP status code (default: 400)
 //     - Returns: JSON response with status, message, and error code
+export const error =(res,message,code=400)=>{
+     return res.status(200).json(
+       { status:"error",
+        message:message,
+       })
+
+
+}
 
 // Export both functions for use in controllers
+
